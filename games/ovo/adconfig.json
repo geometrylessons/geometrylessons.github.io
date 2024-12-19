@@ -1,0 +1,16 @@
+{
+  "networks": [
+    "Poki",
+    "CrazyG4M3S",
+    "GamePix",
+    "GameDistribution",
+    "GameMonetize",
+    "CoolMathG4M3S"
+  ],
+  "name": "",
+  "gameId": "1377b99c10284c229423118a941af3b1",
+  "removeSocials": false,
+  "stopAudioInBackground": false,
+  "removeMidrollRewarded": true,
+  "noReligion": false
+}
