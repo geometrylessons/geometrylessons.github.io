@@ -1,0 +1,29 @@
+{
+    "sites": [
+        {
+            "site_name": "Google",
+            "icon": "./img/google.webp?v3",
+            "title": "Google"
+        },
+        {
+            "site_name": "Google Classroom",
+            "icon": "./img/google-classroom.webp?v3",
+            "title": "Google Classroom"
+        },
+        {
+            "site_name": "Google Drive",
+            "icon": "./img/google-drive.webp?v3",
+            "title": "Google Drive"
+        },
+        {
+            "site_name": "Dashboard",
+            "icon": "./img/canvas.webp?v3",
+            "title": "Dashboard"
+        },
+        {
+            "site_name": "Student and Parent Sign",
+            "icon": "./img/powerschool.webp?v3",
+            "title": "Student and Parent Sign"
+        }
+    ]
+}
