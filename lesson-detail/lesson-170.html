@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2218007989973127"
+     crossorigin="anonymous"></script>
+
 <title>Riddle School 2 Unblocked Games</title>
 <meta name="description" content="🔥 Riddle School 2 Unblocked Games – Play the best free online games without limits!">
 <meta charset="UTF-8">
@@ -73,46 +77,8 @@
 
  <div id="videoad"></div>
   
-<script>
-	window.aiptag = window.aiptag || {cmd: []};
-	aiptag.cmd.display = aiptag.cmd.display || [];
-	aiptag.cmd.player = aiptag.cmd.player || [];
 
-	//CMP tool settings
-	aiptag.cmp = {
-		show: true,
-		position: "centered",  //centered, bottom
-		button: true,
-		buttonText: "Privacy settings",
-		buttonPosition: "bottom-left" //bottom-left, bottom-right, bottom-center, top-left, top-right
-	}
-	aiptag.cmd.player.push(function() {
-		aiptag.adplayer = new aipPlayer({
-			AD_WIDTH: 960,
-			AD_HEIGHT: 540,
-			AD_DISPLAY: 'center', //default, fullscreen, fill, center, modal-center
-			LOADING_TEXT: 'loading advertisement',
-			PREROLL_ELEM: function(){return document.getElementById('videoad')},
-			AIP_COMPLETE: function (state)  {
-				 lesson_detail();
-			}
-		});
-
-			});
-
-		function show_videoad() {
-		//check if the adslib is loaded correctly or blocked by adblockers etc.
-		if (typeof aiptag.adplayer !== 'undefined') {
-			aiptag.cmd.player.push(function() { aiptag.adplayer.startVideoAd(); });
-		} else {
-			//Adlib didnt load this could be due to an adblocker, timeout etc.
-			//Please add your script here that starts the content, this usually is the same script as added in AIP_COMPLETE.
-			alert("Ad Could not be loaded, load your content here");
-			aiptag.adplayer.aipConfig.AIP_COMPLETE();
-		}
-	}
-		</script>
-	<script async src="//api.adinplay.com/libs/aiptag/pub/GDU/paperio4.live/tag.min.js"></script>
+	
 
 
 
@@ -252,12 +218,8 @@ function lesson_detail(){
 <div  class="lesson_area first">
 <img  class="f_img puls" alt="lesson-170" src="https://class-20x.github.io/lessons-img/lesson-170.webp">
 
-<div class="class_r" id='paperio4-live_970x250'>
-<script type='text/javascript'>
-aiptag.cmd.display.push(function() { aipDisplayTag.display('paperio4-live_970x250'); });
-</script>
-</div>
-<div onclick="show_videoad();" class="skip_play"><img src="https://class-20x.github.io/images/button_play.png" alt="" /></div>
+
+<div onclick="lesson_detail();" class="skip_play"><img src="https://class-20x.github.io/images/button_play.png" alt="" /></div>
 </div>
 
 
@@ -278,11 +240,7 @@ Open Fullscreen
 </div>
 
 
-<div class="class_r" id='paperio4-live_970x250_2'>
-<script type='text/javascript'>
-aiptag.cmd.display.push(function() { aipDisplayTag.display('paperio4-live_970x250_2'); });
-</script>
-</div>
+
 
 
 
