@@ -3,7 +3,7 @@
 
 $ads_txt = "https://data.adinplay.com/ads/ogarplay.com/ads.txt";
 
-$gtag  = "google.com, pub-7233485374797646, DIRECT, f08c47fec0942fa0";
+$gtag  = "google.com, pub-2218007989973127, DIRECT, f08c47fec0942fa0";
 
 header("Content-Type: text/plain");
 //echo $gtag."\n";
