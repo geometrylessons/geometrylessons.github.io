@@ -3,7 +3,7 @@
 
 $ads_txt = "";
 
-$gtag  = "google.com, pub-6878762486915837, DIRECT, f08c47fec0942fa0";
+$gtag  = "google.com, pub-2218007989973127, DIRECT, f08c47fec0942fa0";
 
 header("Content-Type: text/plain");
 //echo $gtag."\n";
