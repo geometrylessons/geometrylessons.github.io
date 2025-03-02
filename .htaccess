@@ -1,6 +1,6 @@
 RewriteEngine On
  
-RewriteRule ^ads.txt$ ads.php [L]
+
 #RewriteRule ^lesson-detail/(.*).html$ detay.php?url=$1 [L]
 #RewriteRule ^lesson-(.*).html$ detay.php?url=$1 [L]
  
