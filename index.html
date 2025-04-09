@@ -39,14 +39,22 @@
 <div class="dbosluk"></div>
 <div class="blok bcenter tcenter blok_kisa">
 <h1>Geometry Lessons Unblocked Games at School: Play the Latest <div class="orange">Games!</div></h1>
-  <script>
-  fetch("/ads.html")
-    .then(res => res.text())
-    .then(code => {
-      const adContainer = document.createElement('div');
-      adContainer.innerHTML = code;
-      document.body.appendChild(adContainer);
-    });
+ <!-- Where the ad will show -->
+<div id="ad-top"></div>
+
+<script>
+fetch("/ads.html")
+.then(res => res.text())
+.then(code => {
+const container = document.getElementById("ad-top");
+if (container) {
+container.innerHTML = code;
+} else {
+const fallback = document.createElement('div');
+fallback.innerHTML = code;
+document.body.prepend(fallback);
+}
+});
 </script>
 <div class="bosluk20"></div>
 
