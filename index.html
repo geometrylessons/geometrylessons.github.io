@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6878762486915837" crossorigin="anonymous"></script>
+<script>
+  fetch("/common/ads.html")
+    .then(res => res.text())
+    .then(code => {
+      const adContainer = document.createElement('div');
+      adContainer.innerHTML = code;
+      document.body.appendChild(adContainer);
+    });
+</script>
+
 <title>Geometry Lessons - Unblocked Games at School</title>
 <meta name="description" content="Geometry Lessons and unblocked games at school – play the best free games online at geometrylessons.github.io, 100% safe, fast, and school-friendly.">
 <meta charset="UTF-8">
