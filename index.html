@@ -509,7 +509,11 @@
 
 <div class="bosluk20"></div>
 <footer>
-<p>Copyright &copy; 2025 GeometryLessons.github.io. All rights reserved.</p>
+<p>Copyright © <span id="year"></span> GeometryLessons.github.io. All rights reserved.</p>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </footer>
 
 
@@ -584,12 +588,5 @@ right: 0;
 </style>
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1X681ZV3JY"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'G-1X681ZV3JY');
-</script></body>
+</body>
 </html>
